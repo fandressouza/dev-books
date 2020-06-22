@@ -1,5 +1,7 @@
 # Book notes
 
+## Initial set up (From page 0 to 49)
+
 Skipped pages 1-24 - I had Django installed at this point so not wasting much time
 
 Up until page 24 we get an overview of Django and how to install and run a local server.
