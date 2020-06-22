@@ -121,3 +121,9 @@ urlpatterns = [
 
 Last, you need to go to the templates folder and create the template for `about.html`
 
+---
+
+## Extending Templates (page 49)
+
+
+
