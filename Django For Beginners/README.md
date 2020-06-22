@@ -34,3 +34,4 @@ urlpatterns = [
 ```
 
 Page 30 mentions `git init` so we can start a fresh repository and commit our changes
+
