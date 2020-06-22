@@ -43,7 +43,7 @@ Next few pages discuss where to put the templates folder so Django can look for 
 
 Page 43,
 
-```
+```python
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
