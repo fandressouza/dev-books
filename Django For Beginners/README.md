@@ -12,7 +12,7 @@ Page 27 adds a new item to INSTALLED_APPS in settings.py
 
 Page 28 creates the views.py code
 
-```
+```python
 from django.http import HttpResponse
 
 def homePageView(HttpResponse):
@@ -23,7 +23,7 @@ In page 29 we create a new urls.py under the pages folder (there are 2 now, one 
 
 - urls.py under pages
 
-```
+```python
 from django.urls import path
 
 from .views import homePageView
