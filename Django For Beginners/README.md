@@ -35,3 +35,6 @@ urlpatterns = [
 
 Page 30 mentions `git init` so we can start a fresh repository and commit our changes
 
+Up until page 38 they talk about Git and Bitbucket so I skip this section as I know enough about this to get by.
+
+Page 39
