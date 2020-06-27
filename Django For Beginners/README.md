@@ -127,5 +127,42 @@ Last, you need to go to the templates folder and create the template for `about.
 
 ## Extending Templates (page 49)
 
+At this point we explore extending templates and adding a **base** template which will be used for all pages.
 
+We create base.html and add the code below to both home.html and about.html
+
+base.html
+```html
+<header>
+    <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a>
+</header>
+
+{% block content %}
+
+{% endblock content %}
+```
+
+about.html
+```html
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1>About Page</h1>
+
+{% endblock content %}
+```
+
+home.html
+```html
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1>Home Page</h1>
+
+{% endblock content %}
+```
 
