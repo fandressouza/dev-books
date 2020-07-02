@@ -166,3 +166,27 @@ home.html
 {% endblock content %}
 ```
 
+## Page 53 touches on tests
+
+In this example the book is using **SimpleTestCase** which is a basic version of **TestCase**
+
+Test pages status using the code below
+
+```python
+from django.test import SimpleTestCase
+
+class SimpleTests(SimpleTestCase):
+    def test_home_page_status_code(self):
+        response = self.client.get('/')
+        self.assertEqual(response.status_code, 200)
+
+    def test_about_page_status_code(self):
+        response = self.client.get('/about/')
+        self.assertEqual(response.status_code, 200)
+```
+
+To run the test go to the root of the project (where manage.py is)
+
+`python manage.py test`
+
+Page 54 to 56 touches on Git
