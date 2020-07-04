@@ -4,6 +4,20 @@
 
 Skipped pages 1-24 - I had Django installed at this point so not wasting much time
 
+For this book I'm using django==2.2.13
+
+`pipenv install django==2.2.13`
+
+`pipenv shell`
+
+Start the django project:
+
+`django-admin startproject <project_name> .`
+
+Run it to see if things work:
+
+`python manage.py runserver`
+
 Up until page 24 we get an overview of Django and how to install and run a local server.
 
 Page 25 we create an app running
